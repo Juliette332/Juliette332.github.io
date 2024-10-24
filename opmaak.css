@@ -26,3 +26,7 @@ li a {
 li a:hover:not(.active) {
   background-color: #c9af3b;
 }
+
+img {
+  padding-right: 40px;
+}
