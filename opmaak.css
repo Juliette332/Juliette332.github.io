@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: pink;
+  background-color: white;
 }
 
 li {
@@ -17,16 +17,16 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: hotpink;
+  background-color: grey;
 }
 
 .active {
-  background-color: pink;
+  background-color: white;
 }
