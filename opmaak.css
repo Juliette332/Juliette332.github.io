@@ -30,3 +30,8 @@ li a:hover:not(.active) {
 img {
   padding-right: 40px;
 }
+
+
+body {
+    color: white; 
+}
