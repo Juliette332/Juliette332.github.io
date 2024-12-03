@@ -1,37 +1,40 @@
-<!DOCKTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="nl">
   <head>
-    <title>Architectuur</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link naar PowerPoint</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column; /* Dit zorgt ervoor dat de elementen onder elkaar worden weergegeven */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      a {
+        font-size: 18px;
+        text-decoration: none;
+        color: blue;
+      }
+      li { 
+        color: hotpink;
+      }
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: hotpink;
+        margin-bottom: 20px; /* Ruimte tussen de titel en de volgende link */
+      }
+    </style>
   </head>
-  <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 80vh;
-            margin: 0;
-        }
-        a {
-            font-size: 18px;
-            text-decoration: none;
-            color: blue;
-        }
-    li { 
-      color: hotpink;
-    }
-    h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: hotpink;
-    }
-  </style>
   <body>
+    <h1>Architectuur</h1> <!-- De titel komt nu boven de link naar PowerPoint -->
     <ul>
       <li><a href="portfolio.html">Klik en ga terug naar portfolio</a></li>
     </ul>
-<h1>Architectuur</h1>
+    <!-- Toegevoegde link naar PowerPoint -->
+    <a href="pad/naar/je/presentation.pptx" target="_blank">Klik hier om de PowerPoint te openen</a>
   </body>
 </html>
